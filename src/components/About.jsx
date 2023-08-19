@@ -1,28 +1,27 @@
 import React from 'react'
-import flower from "../assets/flowers.jpg"
-import football from "../assets/football.jpg"
+import football_main from "../assets/football_main.jpg"
+import football2 from "../assets/football2.jpg"
 import golfcart from "../assets/golfcart.jpg"
 import me from "../assets/mee.jpg"
 import sari from "../assets/sari.jpg"
-import sing from "../assets/sing.jpg"
+import sing1 from "../assets/sing1.jpg"
 import afro from "../assets/afro.jpg"
 import dance from "../assets/dance.jpg"
-import canada from "../assets/profilePic2.jpg"
+import track from "../assets/track.jpg"
 import Carousel from "./Carousel"
 
 const slides=[
-    afro,
     me,
-    football,
     sari,
     golfcart,
-    dance,
+    football_main,
+    sing1
 ]
 
 const About = () => {
   return (
     // <div name="about" className='flow-root w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '>
-        <div name="about" className='flex flex-row w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '>
+        <div name="about" className='flex flex-row w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white  -z-10'>
         
             {/* <div className='max-w-lg  w-1/2'> */}
             <div className='p-4 mx-16 flex flex-col w-full max-w-lg'>

@@ -18,7 +18,7 @@ const NavBar = () => {
     },
     {
         id:3,
-        link:'Portfolio'
+        link:'Projects'
     },
     {
         id:4,
@@ -32,7 +32,7 @@ const NavBar = () => {
   return (
     /* px: padding on left and right */
     <div className='flex justify-between items-center
-     w-full h-20 px-4 text-white bg-black fixed'> 
+     w-full h-20 px-4 text-white bg-black fixed z-50 '> 
      <div>
      <h1 className="text-3xl font-signature ml-2">Sasha Neil Pimento</h1>   
     </div>
