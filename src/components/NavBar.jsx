@@ -1,6 +1,7 @@
 /** rafce command used to create components using React-Native snippet tool*/
 import React,{useState} from 'react'
 import { FaBars,FaTimes } from "react-icons/fa"; //fa stands for font awesome
+import {Link} from "react-scroll";
 //FaBars gives a hamburger menu icon
 //FaTimes gives cross icon
 
@@ -14,19 +15,19 @@ const NavBar = () => {
     },
     {
         id:2,
-        link:'About'
+        link:'about'
     },
     {
         id:3,
-        link:'Projects'
+        link:'portfolio'
     },
     {
         id:4,
-        link:'Experience'
+        link:'experience'
     },
     {
         id:5,
-        link:'Contact'
+        link:'contact'
     }
   ]
   return (
@@ -43,7 +44,7 @@ const NavBar = () => {
         {links.map(({ id, link })=>(
              <li key= {id} className='px-6 cursor-pointer capitalize font-medium 
              text-gray-500 text-2xl hover:scale-150 duration-200 hover:text-white'>
-             {link}
+             <Link to={link} smooth duration={500}>{link}</Link>
              </li>
         ))}
     </ul>
@@ -57,10 +58,10 @@ const NavBar = () => {
          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
          {links.map(({ id, link })=>(
               <li key= {id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-              {link}
+              <Link onClick={()=>setNav(!nav)}to={link} smooth duration={500}> {link} </Link>
               </li>
          ))}
-          <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Home</li>
+          {/* <li className='px-4 cursor-pointer capitalize py-6 text-4xl'>Home</li> */}
         </ul>
     )}
      </div>
