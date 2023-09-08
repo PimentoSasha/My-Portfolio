@@ -17,8 +17,8 @@ const slides=[
 const About = () => {
   return (
     // <div name="about" className='flow-root w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white '>
-        <div name="about" className='flex flex-row w-full h-[130vh] bg-gradient-to-b from-gray-800 to-black text-white  -z-10'>
-        
+        <div name="about" className='p-14 flex flex-row w-full bg-gradient-to-b from-gray-800 to-black text-white  md:h-130vh -z-10'>
+  
             {/* <div className='max-w-lg  w-1/2'> */}
             <div className='hidden md:flex p-4 mx-16 my-20 flex-col w-full max-w-lg'>
                 <Carousel autoSlide={true}>
@@ -46,7 +46,7 @@ const About = () => {
             P.S. I also like to sing, dance, and play soccer in my free time. It would be great to connect and chat about our common interests!
             </p> <br /> 
 
-            <div class="box-border w-full md:h-1/3  p-4 border-4">
+            <div class="box-border w-full h-60vh md:h-40vh p-4 border-4">
             <div className="pb-8">
                 <div class="flex items-center justify-center">
                 <p className='text-2xl font-bold inline border-b-2 border-gray-500 '>Skills</p>
@@ -68,6 +68,7 @@ const About = () => {
             </div>
 
         </div>
+        
 
     </div>
   )
