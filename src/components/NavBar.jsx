@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     /* px: padding on left and right */
     <div className='flex justify-between items-center
-     w-full h-20 px-4 text-white bg-black fixed z-50 '> 
+     w-full h-20 px-4 text-white bg-violet-1100 fixed z-50 shadow-lg'> 
      <div>
      <h1 className="text-3xl font-signature ml-2">Sasha Neil Pimento</h1>   
     </div>
@@ -43,7 +43,7 @@ const NavBar = () => {
 
         {links.map(({ id, link })=>(
              <li key= {id} className='px-6 cursor-pointer capitalize font-medium 
-             text-gray-500 text-2xl hover:scale-150 duration-200 hover:text-white'>
+             text-white-500 text-2xl hover:scale-150 duration-200 hover:text-violet-400'>
              <Link to={link} smooth duration={500}>{link}</Link>
              </li>
         ))}
