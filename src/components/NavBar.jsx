@@ -19,11 +19,11 @@ const NavBar = () => {
     },
     {
         id:3,
-        link:'portfolio'
+        link:'experience'
     },
     {
         id:4,
-        link:'experience'
+        link:'portfolio'
     },
     {
         id:5,
@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     /* px: padding on left and right */
     <div className='flex justify-between items-center
-     w-full h-20 px-4 text-white bg-violet-1100 fixed z-50 shadow-lg'> 
+     w-full h-20 px-4 text-white bg-black-600 fixed z-50 shadow-lg'> 
      <div>
      <h1 className="text-3xl font-signature ml-2">Sasha Neil Pimento</h1>   
     </div>
