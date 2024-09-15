@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.2301ce2d.css",
+    "main.js": "/My-Portfolio/static/js/main.31613381.js",
+    "static/media/golfcart.jpg": "/My-Portfolio/static/media/golfcart.96e98ee82fa580752759.jpg",
+    "static/media/mee.jpg": "/My-Portfolio/static/media/mee.102c9a5bb2f3a839e314.jpg",
+    "static/media/football_main.jpg": "/My-Portfolio/static/media/football_main.9f572d501f8d4061383b.jpg",
+    "static/media/flowers4.jpg": "/My-Portfolio/static/media/flowers4.6475ca4fda89e5f80bfb.jpg",
+    "static/media/sari.jpg": "/My-Portfolio/static/media/sari.d09b594db794d0d39c00.jpg",
+    "static/media/space1.jpg": "/My-Portfolio/static/media/space1.d3101710b5b5e6e921d6.jpg",
+    "static/media/ICARE.jpg": "/My-Portfolio/static/media/ICARE.30654920607a806c5c48.jpg",
+    "static/media/global.jpg": "/My-Portfolio/static/media/global.83b92618419f2ab7f320.jpg",
+    "static/media/sing1.jpg": "/My-Portfolio/static/media/sing1.0933634f5ee041a60709.jpg",
+    "static/media/stockhub.png": "/My-Portfolio/static/media/stockhub.d58d8770908e7fdb9f39.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.2301ce2d.css.map": "/My-Portfolio/static/css/main.2301ce2d.css.map",
+    "main.31613381.js.map": "/My-Portfolio/static/js/main.31613381.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2301ce2d.css",
+    "static/js/main.31613381.js"
+  ]
+}
