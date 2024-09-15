@@ -27,7 +27,7 @@ const handleResumeButtonClick = () => {
              <div className="relative z-10 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row bg-black bg-opacity-20">
 
                 <div className='flex flex-col justify-center h-full'>
-                    <h2 className="text-4xl sm:text-4xl font-bold text-white">Innovative Software Developer</h2>
+                    <h2 className="text-4xl sm:text-4xl font-bold text-white">Innovative Software Engineer</h2>
                     {/* <p className='  text-gray-500 py-4 max-w-md text-lg'> Hi There! Welcome to my Portfolio! I am currently pursuing my Masters in Computer Science at UC Davis and working as a Graduate Student Researcher 
                         under Dr. Alyssa Weakley at the UC Davis Alzheimer's Disease Research Center. <br></br> <br></br> 
                         Currently I'm on the lookout for Software Engineer/ Software Developer roles starting June 2024 
@@ -35,7 +35,7 @@ const handleResumeButtonClick = () => {
                         If you think there might be a good fit, I'd love to chat! */}
                         <p className= ' text-justify text-white py-4 max-w-md text-lg'>
 
-                        Driven by a passion for cutting-edge technology, I'm on a mission to revolutionize the software landscape. My journey through my Masters has ignited a fire to create solutions that not only solve problems but redefine possibilities. With a blend of academic excellence and hands-on experience, I'm poised to bring fresh perspectives and innovative approaches to your team. Let's collaborate to build the future of technology and make a lasting impact in the world of software development. </p>
+                        Welcome! I'm a Master’s student in Computer Science at UC Davis, deeply engaged in developing technologies that push boundaries. My work spans across fields like FinTech, HealthTech, Blockchain, and AI, and I’m driven by a strong desire to create software that solves real-world problems while setting new industry standards. I thrive in collaborative environments, and I'm always eager to learn, improve, and share ideas with like-minded innovators. If you're looking for a developer ready to make an impact, let’s connect and bring bold ideas to life! </p>
                     <div>
                     <button className='group text-white w-fit px-6 py-2 my-2 flex items-center rounded-lg  bg-pink-500 hover:bg-purple-500'
                     onClick={() => handleResumeButtonClick()}>
